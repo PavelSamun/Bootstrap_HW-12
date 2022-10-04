@@ -1,0 +1,8 @@
+.logo-img {
+  height: 40px;
+}
+
+a:hover,
+button:hover {
+  text-shadow: 1px 1px 1px rgb(76, 106, 216);
+}
