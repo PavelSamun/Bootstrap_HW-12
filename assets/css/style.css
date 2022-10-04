@@ -1,3 +1,15 @@
+.bg-image {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url(../img/underwater.jpg);
+  background-color: rgba(13, 78, 170, 0.13);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
 .logo-img {
   height: 40px;
 }
