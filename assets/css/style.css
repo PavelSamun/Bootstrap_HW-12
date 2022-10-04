@@ -5,9 +5,19 @@
   width: 100vw;
   min-height: 100vh;
   background-image: url(../img/underwater.jpg);
-  background-color: rgba(13, 78, 170, 0.13);
+  background-color: rgba(93, 123, 165, 0.332);
   background-position: 50% 50%;
   background-size: cover;
+}
+
+.bg-image::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: rgba(226, 227, 240, 0.38);
 }
 
 .logo-img {
